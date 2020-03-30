@@ -170,9 +170,8 @@ body {
     flex-wrap: wrap;
     flex-direction: column;
     text-align: center;
-    padding: 80px 15px 0 15px;
-    border-bottom: 30px solid #f1eee9;
     width: 260px;
+    padding: 80px 15px 0 15px;
 }
 .ability-item-img {
     /* margin: 80px 0 30px 0; */
@@ -192,4 +191,15 @@ body {
     font-weight: 300;
     line-height: 24px;
     margin-bottom: 30px;
+}
+.ability-item::after {
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    width: 30%;
+    border-top: 3px solid #f1eee9;
+    content: "";
+}
+.ability-item-header:hover {
+    color: #c7b299;
 }
