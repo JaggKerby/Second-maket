@@ -7,7 +7,7 @@ body {
 }
 .header {
     position: relative;
-    background: url(img/photo.png) no-repeat;
+    background: url(img/photo-back.png) no-repeat;
     background-size: cover;
 }
 .header:after {
@@ -174,7 +174,7 @@ body {
     padding: 80px 15px 0 15px;
 }
 .ability-item-img {
-    /* margin: 80px 0 30px 0; */
+    fill:#555555;
 } 
 .ability-item-header {
     color: #555555;
@@ -200,10 +200,13 @@ body {
 .ability-item:hover .ability-item-header {
     color: #c7b299;
     transition-duration: 0.3s;
-
 }
 .ability-item:hover .line {
     border-bottom: 3px solid #c7b299;
+    transition-duration: 0.3s;
+}
+.ability-item:hover .ability-item-img {
+    fill:#c7b299;
     transition-duration: 0.3s;
 }
 .our-theme {
@@ -347,4 +350,11 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-}
+    align-content: space-around;
+    width: 85%;
+} 
+.projects-gallery-item  {
+    margin: 0;
+    box-sizing: border-box;
+    margin: 0 30px 0 30px;
+} 
