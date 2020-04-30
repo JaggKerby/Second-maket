@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway:400,600,800&display=swap" rel="stylesheet">
     <script src="https://use.fontawesome.com/f3f449c02f.js"></script>
+    <script src="scrypt.js"></script>
     <title>Waxom</title>
 </head>
+
 <body>
     <header class="header">
-        <section class="header-wrapper">
+        <div class="header-wrapper">
             <div class="logo">
                 <svg class='logo-img' xmlns="http://www.w3.org/2000/svg" width="64" height="56" viewBox="0 0 64 56">
                     <path
@@ -32,8 +35,8 @@
                     <li><a class="item-link" href="#">Contact</a></li>
                 </ul>
             </nav>
-        </section>
-        <section class="header-slider">
+        </div>
+        <div class="header-slider">
             <a href="#" class="slider-btn-left"></a>
             <article class="slider-text">
                 <p class="text-item">Unique and Modern Design</p>
@@ -42,15 +45,15 @@
                     imper-<wbr>diet doming id&nbsp;quod mazim placerat facer possim assum</p>
                     <a class="slider-text-btn" href="#">Get started</a>
                     <span class="slider-bar">
-                        <div class="bar-elem"></div>
-                        <div class="bar-elem"></div>
-                        <div class="bar-elem"></div>
-                        <div class="bar-elem"></div>
-                        <div class="bar-elem"></div>
+                        <a class="bar-elem"></a>
+                        <a class="bar-elem"></a>
+                        <a class="bar-elem"></a>
+                        <a class="bar-elem"></a>
+                        <a class="bar-elem"></a>
                     </span>
             </article>
             <a href="#" class="slider-btn-right"></a>
-        </section>
+        </div>
     </header>
     <section class="our-ability">
         <article class="ability-item">
@@ -111,14 +114,14 @@
             <img src="img/browser-center.png" alt="theme" class="theme-img-center" width="770px" height="482px">
             <img src="img/browser-right.png" alt="theme" class="theme-img-right" width="770px" height="400px">
         </section>
-        <footer class="footer-our">
+        <aside class="footer-our">
             <article class="our-footer">
                 <header class="our-footer-header">Waxom Multipurpose WordPress Theme
                     <p class="our-footer-text">Don't Forget to Rate the Template. Thanks so much!</p>
                 </header>
                 <a href="#" class="our-footer-btn">Purchase Now</a>
             </article>
-        </footer>
+        </aside>
     </section>
     <section class="our-projects">
         <header class="projects-header">Our Latest Projects.</header>
@@ -133,56 +136,108 @@
         </nav>
         <section class="projects-gallery">
             <div class="projects-gallery-item">
-
-                <!-- <div class="item-hover"> -->
-
                 <img class="item-img" src="img/photo1.png" alt="project" width=370px height=237px>
                 <span class="tri"></span>
-                <!-- <span class="img-hover">
-                            <button class="img-hover-btn"></button>
-                            <button class="img-hover-btn"></button>
-                        </span> -->
-
-                <!-- </div> -->
                 <h3 class="item-header">Claritas Etiam Processus</h3>
                 <p class="item-txt">Photography, Nature</p>
+                <button class="article-btn-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+                        <path d="M23.5 11.242l-1.927 1.928-3.187 3.189c-.153.17-.34.324-.511.46a6.24 6.24 0 0 1-6.153.905 6.038 6.038 0 0 1-2.08-1.365l2.642-2.644a2.446 2.446 0 0 0 3.46 0l2.028-2.029L20.857 8.6a2.447 2.447 0 1 0-3.46-3.462l-2.454 2.456a7.068 7.068 0 0 0-4.908-.376l4.72-4.723c2.404-2.405 6.341-2.405 8.744 0 2.42 2.42 2.42 6.343 0 8.748zm-7.654 7.607l-4.618 4.672c-2.403 2.406-6.34 2.406-8.744 0-2.403-2.404-2.403-6.343 0-8.747l5.113-5.118c.068-.067.154-.153.239-.221a6.191 6.191 0 0 1 6.426-1.142c.75.29 1.465.75 2.079 1.363l-2.642 2.645a2.446 2.446 0 0 0-3.46 0l-5.113 5.115a2.447 2.447 0 1 0 3.46 3.463l2.352-2.355c2.011.803 2.557.87 4.908.325z"/>
+                    </svg>
+                </button>
+                <button class="article-btn-search">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="25" viewBox="0 0 26 25">
+                        <path d="M17.417 7.847c.318.644.047 1.42-.607 1.734-.185.087-.381.13-.576.13-.487 0-.954-.267-1.182-.728a4.147 4.147 0 0 0-3.748-2.31c-.726 0-1.315-.579-1.315-1.296 0-.714.589-1.295 1.315-1.295 2.62 0 4.964 1.443 6.113 3.765zm8.04 16.325a1.647 1.647 0 0 1-1.164.474 1.65 1.65 0 0 1-1.163-.474L18.795 19.9a11.218 11.218 0 0 1-6.836 2.317C5.793 22.218.777 17.276.777 11.202S5.793.186 11.96.186 23.14 5.128 23.14 11.202c0 2.37-.77 4.562-2.068 6.361l4.383 4.318a1.602 1.602 0 0 1 0 2.29zM11.96 19.627c2.104 0 4.03-.756 5.521-2.003.46-.384.874-.819 1.243-1.288a8.288 8.288 0 0 0 1.786-5.134c0-4.645-3.836-8.424-8.55-8.424-4.715 0-8.551 3.78-8.551 8.424 0 4.645 3.836 8.424 8.55 8.425z"/>
+                    </svg>
+                </button>
             </div>
             <div class="projects-gallery-item">
                 <img class="item-img" src="img/photo2.png" alt="project" width=370px height=237px>
                 <span class="tri"></span>
                 <h3 class="item-header">Quam Nutamus Farum</h3>
                 <p class="item-txt">Graphic Design, Mock-Up</p>
+                <button class="article-btn-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+                        <path d="M23.5 11.242l-1.927 1.928-3.187 3.189c-.153.17-.34.324-.511.46a6.24 6.24 0 0 1-6.153.905 6.038 6.038 0 0 1-2.08-1.365l2.642-2.644a2.446 2.446 0 0 0 3.46 0l2.028-2.029L20.857 8.6a2.447 2.447 0 1 0-3.46-3.462l-2.454 2.456a7.068 7.068 0 0 0-4.908-.376l4.72-4.723c2.404-2.405 6.341-2.405 8.744 0 2.42 2.42 2.42 6.343 0 8.748zm-7.654 7.607l-4.618 4.672c-2.403 2.406-6.34 2.406-8.744 0-2.403-2.404-2.403-6.343 0-8.747l5.113-5.118c.068-.067.154-.153.239-.221a6.191 6.191 0 0 1 6.426-1.142c.75.29 1.465.75 2.079 1.363l-2.642 2.645a2.446 2.446 0 0 0-3.46 0l-5.113 5.115a2.447 2.447 0 1 0 3.46 3.463l2.352-2.355c2.011.803 2.557.87 4.908.325z"/>
+                    </svg>
+                </button>
+                <button class="article-btn-search">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="25" viewBox="0 0 26 25">
+                        <path d="M17.417 7.847c.318.644.047 1.42-.607 1.734-.185.087-.381.13-.576.13-.487 0-.954-.267-1.182-.728a4.147 4.147 0 0 0-3.748-2.31c-.726 0-1.315-.579-1.315-1.296 0-.714.589-1.295 1.315-1.295 2.62 0 4.964 1.443 6.113 3.765zm8.04 16.325a1.647 1.647 0 0 1-1.164.474 1.65 1.65 0 0 1-1.163-.474L18.795 19.9a11.218 11.218 0 0 1-6.836 2.317C5.793 22.218.777 17.276.777 11.202S5.793.186 11.96.186 23.14 5.128 23.14 11.202c0 2.37-.77 4.562-2.068 6.361l4.383 4.318a1.602 1.602 0 0 1 0 2.29zM11.96 19.627c2.104 0 4.03-.756 5.521-2.003.46-.384.874-.819 1.243-1.288a8.288 8.288 0 0 0 1.786-5.134c0-4.645-3.836-8.424-8.55-8.424-4.715 0-8.551 3.78-8.551 8.424 0 4.645 3.836 8.424 8.55 8.425z"/>
+                    </svg>
+                </button>
             </div>
             <div class="projects-gallery-item">
                 <img class="item-img" src="img/photo3.png" alt="project" width=370px height=237px>
                 <span class="tri"></span>
                 <h3 class="item-header">Usus Legentis Videntur</h3>
                 <p class="item-txt">Photography, Holiday</p>
+                <button class="article-btn-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+                        <path d="M23.5 11.242l-1.927 1.928-3.187 3.189c-.153.17-.34.324-.511.46a6.24 6.24 0 0 1-6.153.905 6.038 6.038 0 0 1-2.08-1.365l2.642-2.644a2.446 2.446 0 0 0 3.46 0l2.028-2.029L20.857 8.6a2.447 2.447 0 1 0-3.46-3.462l-2.454 2.456a7.068 7.068 0 0 0-4.908-.376l4.72-4.723c2.404-2.405 6.341-2.405 8.744 0 2.42 2.42 2.42 6.343 0 8.748zm-7.654 7.607l-4.618 4.672c-2.403 2.406-6.34 2.406-8.744 0-2.403-2.404-2.403-6.343 0-8.747l5.113-5.118c.068-.067.154-.153.239-.221a6.191 6.191 0 0 1 6.426-1.142c.75.29 1.465.75 2.079 1.363l-2.642 2.645a2.446 2.446 0 0 0-3.46 0l-5.113 5.115a2.447 2.447 0 1 0 3.46 3.463l2.352-2.355c2.011.803 2.557.87 4.908.325z"/>
+                    </svg>
+                </button>
+                <button class="article-btn-search">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="25" viewBox="0 0 26 25">
+                        <path d="M17.417 7.847c.318.644.047 1.42-.607 1.734-.185.087-.381.13-.576.13-.487 0-.954-.267-1.182-.728a4.147 4.147 0 0 0-3.748-2.31c-.726 0-1.315-.579-1.315-1.296 0-.714.589-1.295 1.315-1.295 2.62 0 4.964 1.443 6.113 3.765zm8.04 16.325a1.647 1.647 0 0 1-1.164.474 1.65 1.65 0 0 1-1.163-.474L18.795 19.9a11.218 11.218 0 0 1-6.836 2.317C5.793 22.218.777 17.276.777 11.202S5.793.186 11.96.186 23.14 5.128 23.14 11.202c0 2.37-.77 4.562-2.068 6.361l4.383 4.318a1.602 1.602 0 0 1 0 2.29zM11.96 19.627c2.104 0 4.03-.756 5.521-2.003.46-.384.874-.819 1.243-1.288a8.288 8.288 0 0 0 1.786-5.134c0-4.645-3.836-8.424-8.55-8.424-4.715 0-8.551 3.78-8.551 8.424 0 4.645 3.836 8.424 8.55 8.425z"/>
+                    </svg>
+                </button>
             </div>
             <div class="projects-gallery-item">
                 <img class="item-img" src="img/photo4.png" alt="project" width=370px height=237px>
                 <span class="tri"></span>
                 <h3 class="item-header">Claritas Etiam Processus</h3>
                 <p class="item-txt">Photography, Nature</p>
+                <button class="article-btn-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+                        <path d="M23.5 11.242l-1.927 1.928-3.187 3.189c-.153.17-.34.324-.511.46a6.24 6.24 0 0 1-6.153.905 6.038 6.038 0 0 1-2.08-1.365l2.642-2.644a2.446 2.446 0 0 0 3.46 0l2.028-2.029L20.857 8.6a2.447 2.447 0 1 0-3.46-3.462l-2.454 2.456a7.068 7.068 0 0 0-4.908-.376l4.72-4.723c2.404-2.405 6.341-2.405 8.744 0 2.42 2.42 2.42 6.343 0 8.748zm-7.654 7.607l-4.618 4.672c-2.403 2.406-6.34 2.406-8.744 0-2.403-2.404-2.403-6.343 0-8.747l5.113-5.118c.068-.067.154-.153.239-.221a6.191 6.191 0 0 1 6.426-1.142c.75.29 1.465.75 2.079 1.363l-2.642 2.645a2.446 2.446 0 0 0-3.46 0l-5.113 5.115a2.447 2.447 0 1 0 3.46 3.463l2.352-2.355c2.011.803 2.557.87 4.908.325z"/>
+                    </svg>
+                </button>
+                <button class="article-btn-search">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="25" viewBox="0 0 26 25">
+                        <path d="M17.417 7.847c.318.644.047 1.42-.607 1.734-.185.087-.381.13-.576.13-.487 0-.954-.267-1.182-.728a4.147 4.147 0 0 0-3.748-2.31c-.726 0-1.315-.579-1.315-1.296 0-.714.589-1.295 1.315-1.295 2.62 0 4.964 1.443 6.113 3.765zm8.04 16.325a1.647 1.647 0 0 1-1.164.474 1.65 1.65 0 0 1-1.163-.474L18.795 19.9a11.218 11.218 0 0 1-6.836 2.317C5.793 22.218.777 17.276.777 11.202S5.793.186 11.96.186 23.14 5.128 23.14 11.202c0 2.37-.77 4.562-2.068 6.361l4.383 4.318a1.602 1.602 0 0 1 0 2.29zM11.96 19.627c2.104 0 4.03-.756 5.521-2.003.46-.384.874-.819 1.243-1.288a8.288 8.288 0 0 0 1.786-5.134c0-4.645-3.836-8.424-8.55-8.424-4.715 0-8.551 3.78-8.551 8.424 0 4.645 3.836 8.424 8.55 8.425z"/>
+                    </svg>
+                </button>
             </div>
             <div class="projects-gallery-item">
                 <img class="item-img" src="img/photo5.png" alt="project" width=370px height=237px>
                 <span class="tri"></span>
                 <h3 class="item-header">Quam Nutamus Farum</h3>
                 <p class="item-txt">Graphic Design, Mock-Up</p>
+                <button class="article-btn-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+                        <path d="M23.5 11.242l-1.927 1.928-3.187 3.189c-.153.17-.34.324-.511.46a6.24 6.24 0 0 1-6.153.905 6.038 6.038 0 0 1-2.08-1.365l2.642-2.644a2.446 2.446 0 0 0 3.46 0l2.028-2.029L20.857 8.6a2.447 2.447 0 1 0-3.46-3.462l-2.454 2.456a7.068 7.068 0 0 0-4.908-.376l4.72-4.723c2.404-2.405 6.341-2.405 8.744 0 2.42 2.42 2.42 6.343 0 8.748zm-7.654 7.607l-4.618 4.672c-2.403 2.406-6.34 2.406-8.744 0-2.403-2.404-2.403-6.343 0-8.747l5.113-5.118c.068-.067.154-.153.239-.221a6.191 6.191 0 0 1 6.426-1.142c.75.29 1.465.75 2.079 1.363l-2.642 2.645a2.446 2.446 0 0 0-3.46 0l-5.113 5.115a2.447 2.447 0 1 0 3.46 3.463l2.352-2.355c2.011.803 2.557.87 4.908.325z"/>
+                    </svg>
+                </button>
+                <button class="article-btn-search">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="25" viewBox="0 0 26 25">
+                        <path d="M17.417 7.847c.318.644.047 1.42-.607 1.734-.185.087-.381.13-.576.13-.487 0-.954-.267-1.182-.728a4.147 4.147 0 0 0-3.748-2.31c-.726 0-1.315-.579-1.315-1.296 0-.714.589-1.295 1.315-1.295 2.62 0 4.964 1.443 6.113 3.765zm8.04 16.325a1.647 1.647 0 0 1-1.164.474 1.65 1.65 0 0 1-1.163-.474L18.795 19.9a11.218 11.218 0 0 1-6.836 2.317C5.793 22.218.777 17.276.777 11.202S5.793.186 11.96.186 23.14 5.128 23.14 11.202c0 2.37-.77 4.562-2.068 6.361l4.383 4.318a1.602 1.602 0 0 1 0 2.29zM11.96 19.627c2.104 0 4.03-.756 5.521-2.003.46-.384.874-.819 1.243-1.288a8.288 8.288 0 0 0 1.786-5.134c0-4.645-3.836-8.424-8.55-8.424-4.715 0-8.551 3.78-8.551 8.424 0 4.645 3.836 8.424 8.55 8.425z"/>
+                    </svg>
+                </button>
             </div>
             <div class="projects-gallery-item">
                 <img class="item-img" src="img/photo6.png" alt="project" width=370px height=237px>
                 <span class="tri"></span>
                 <h3 class="item-header">Usus Legentis Videntur</h3>
                 <p class="item-txt">Photography, Holiday</p>
+                <button class="article-btn-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+                        <path d="M23.5 11.242l-1.927 1.928-3.187 3.189c-.153.17-.34.324-.511.46a6.24 6.24 0 0 1-6.153.905 6.038 6.038 0 0 1-2.08-1.365l2.642-2.644a2.446 2.446 0 0 0 3.46 0l2.028-2.029L20.857 8.6a2.447 2.447 0 1 0-3.46-3.462l-2.454 2.456a7.068 7.068 0 0 0-4.908-.376l4.72-4.723c2.404-2.405 6.341-2.405 8.744 0 2.42 2.42 2.42 6.343 0 8.748zm-7.654 7.607l-4.618 4.672c-2.403 2.406-6.34 2.406-8.744 0-2.403-2.404-2.403-6.343 0-8.747l5.113-5.118c.068-.067.154-.153.239-.221a6.191 6.191 0 0 1 6.426-1.142c.75.29 1.465.75 2.079 1.363l-2.642 2.645a2.446 2.446 0 0 0-3.46 0l-5.113 5.115a2.447 2.447 0 1 0 3.46 3.463l2.352-2.355c2.011.803 2.557.87 4.908.325z"/>
+                    </svg>
+                </button>
+                <button class="article-btn-search">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="25" viewBox="0 0 26 25">
+                        <path d="M17.417 7.847c.318.644.047 1.42-.607 1.734-.185.087-.381.13-.576.13-.487 0-.954-.267-1.182-.728a4.147 4.147 0 0 0-3.748-2.31c-.726 0-1.315-.579-1.315-1.296 0-.714.589-1.295 1.315-1.295 2.62 0 4.964 1.443 6.113 3.765zm8.04 16.325a1.647 1.647 0 0 1-1.164.474 1.65 1.65 0 0 1-1.163-.474L18.795 19.9a11.218 11.218 0 0 1-6.836 2.317C5.793 22.218.777 17.276.777 11.202S5.793.186 11.96.186 23.14 5.128 23.14 11.202c0 2.37-.77 4.562-2.068 6.361l4.383 4.318a1.602 1.602 0 0 1 0 2.29zM11.96 19.627c2.104 0 4.03-.756 5.521-2.003.46-.384.874-.819 1.243-1.288a8.288 8.288 0 0 0 1.786-5.134c0-4.645-3.836-8.424-8.55-8.424-4.715 0-8.551 3.78-8.551 8.424 0 4.645 3.836 8.424 8.55 8.425z"/>
+                    </svg>
+                </button>
             </div>
         </section>
         <button class="projects-btn">Load More</button>
     </section>
 
     <section class="video-wall">
-        <video src="https://youtu.be/Scxs7L0vhZ4" controls width="1920" height="705" poster="img/video-wall.png" muted='0' ;>
+        <video src="https://youtu.be/Scxs7L0vhZ4" controls width="1920" height="705" poster="img/video-wall.png"
+            muted='0' ;>
             Sorry, your browser doesn't support embedded videos,
             but don't worry, you can <a href="https://www.youtube.com/watch?v=Scxs7L0vhZ4">download it</a>
             and watch it with your favorite video player!
@@ -266,45 +321,50 @@
     </div>
     <section class="post">
         <header class="post-header">Recent Posts.</header>
-        <p class="post-text">Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. 
+        <p class="post-text">Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.
             Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
-         <div class="post-date-wrapper">       
-        <figure class="post-date">
-            <img class="post-date-img" src="img/photopost1.png" alt="postphoto">
-            <figcaption class="post-date-text">
-                <h2 class="post-date-head">Lorem ipsum dolor sit amet</h2>
-                <p class="date-text">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
-                <a href="#" class="post-link-txt">Read more</a>
-            </figcaption>
-        </figure>
-        <figure class="post-date">
-            <img class="post-date-img" src="img/photopost2.png" alt="postphoto">
-            <figcaption class="post-date-text">
-                <h2 class="post-date-head">Lorem ipsum dolor sit amet</h2>
-                <p class="date-text">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
-                <a href="#" class="post-link-txt">Read more</a>
-            </figcaption>
-        </figure>
-        <figure class="post-date">
-            <img class="post-date-img" src="img/photopost3.png" alt="postphoto">
-            <figcaption class="post-date-text">
-                <h2 class="post-date-head">Lorem ipsum dolor sit amet</h2>
-                <p class="date-text">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
-                <a href="#" class="post-link-txt">Read more</a>
-            </figcaption>
-        </figure>
+        <div class="post-date-wrapper">
+            <figure class="post-date">
+                <img class="post-date-img" src="img/photopost1.png" alt="postphoto">
+                <figcaption class="post-date-text">
+                    <h2 class="post-date-head">Lorem ipsum dolor sit amet</h2>
+                    <p class="date-text">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.
+                    </p>
+                    <a href="#" class="post-link-txt">Read more</a>
+                </figcaption>
+            </figure>
+            <figure class="post-date">
+                <img class="post-date-img" src="img/photopost2.png" alt="postphoto">
+                <figcaption class="post-date-text">
+                    <h2 class="post-date-head">Lorem ipsum dolor sit amet</h2>
+                    <p class="date-text">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.
+                    </p>
+                    <a href="#" class="post-link-txt">Read more</a>
+                </figcaption>
+            </figure>
+            <figure class="post-date">
+                <img class="post-date-img" src="img/photopost3.png" alt="postphoto">
+                <figcaption class="post-date-text">
+                    <h2 class="post-date-head">Lorem ipsum dolor sit amet</h2>
+                    <p class="date-text">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.
+                    </p>
+                    <a href="#" class="post-link-txt">Read more</a>
+                </figcaption>
+            </figure>
         </div>
         <span class="recent-btn">
-        <button class="recent-btn btn-focus">
-            <svg class='recent-left' xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
-                <path  d="M7.583 10.434l4.772-4.773a.737.737 0 0 1 1.04 1.041l-4.254 4.255 4.254 4.254a.736.736 0 0 1-1.04 1.04L7.583 11.48a.73.73 0 0 1-.216-.523c0-.19.07-.378.216-.523zM10.987.026c6.066 0 10.985 4.917 10.985 10.985 0 6.065-4.919 10.984-10.985 10.984S.003 17.076.003 11.01C.003 4.944 4.921.027 10.987.027zm0 20.497c5.245 0 9.514-4.27 9.514-9.513 0-5.245-4.269-9.513-9.514-9.513-5.244 0-9.512 4.268-9.512 9.513 0 5.243 4.268 9.513 9.512 9.513z"/>
-            </svg>
-        </button>
-        <button class="recent-btn btn-focus">
-            <svg class='recent-right' xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
-                <path  d="M7.583 10.434l4.772-4.773a.737.737 0 0 1 1.04 1.041l-4.254 4.255 4.254 4.254a.736.736 0 0 1-1.04 1.04L7.583 11.48a.73.73 0 0 1-.216-.523c0-.19.07-.378.216-.523zM10.987.026c6.066 0 10.985 4.917 10.985 10.985 0 6.065-4.919 10.984-10.985 10.984S.003 17.076.003 11.01C.003 4.944 4.921.027 10.987.027zm0 20.497c5.245 0 9.514-4.27 9.514-9.513 0-5.245-4.269-9.513-9.514-9.513-5.244 0-9.512 4.268-9.512 9.513 0 5.243 4.268 9.513 9.512 9.513z"/>
-            </svg>
-        </button>
+            <button class="recent-btn btn-focus">
+                <svg class='recent-left' xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
+                    <path
+                        d="M7.583 10.434l4.772-4.773a.737.737 0 0 1 1.04 1.041l-4.254 4.255 4.254 4.254a.736.736 0 0 1-1.04 1.04L7.583 11.48a.73.73 0 0 1-.216-.523c0-.19.07-.378.216-.523zM10.987.026c6.066 0 10.985 4.917 10.985 10.985 0 6.065-4.919 10.984-10.985 10.984S.003 17.076.003 11.01C.003 4.944 4.921.027 10.987.027zm0 20.497c5.245 0 9.514-4.27 9.514-9.513 0-5.245-4.269-9.513-9.514-9.513-5.244 0-9.512 4.268-9.512 9.513 0 5.243 4.268 9.513 9.512 9.513z" />
+                </svg>
+            </button>
+            <button class="recent-btn btn-focus">
+                <svg class='recent-right' xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
+                    <path
+                        d="M7.583 10.434l4.772-4.773a.737.737 0 0 1 1.04 1.041l-4.254 4.255 4.254 4.254a.736.736 0 0 1-1.04 1.04L7.583 11.48a.73.73 0 0 1-.216-.523c0-.19.07-.378.216-.523zM10.987.026c6.066 0 10.985 4.917 10.985 10.985 0 6.065-4.919 10.984-10.985 10.984S.003 17.076.003 11.01C.003 4.944 4.921.027 10.987.027zm0 20.497c5.245 0 9.514-4.27 9.514-9.513 0-5.245-4.269-9.513-9.514-9.513-5.244 0-9.512 4.268-9.512 9.513 0 5.243 4.268 9.513 9.512 9.513z" />
+                </svg>
+            </button>
         </span>
     </section>
     <section class="our-customers">
@@ -315,59 +375,67 @@
     </section>
     <section class='prefoot-footer'>
         <div class="prefoot-wrapper">
-        <article class="prefoot-about">
-            <header class="prefoot-header">
-                    <svg class="prefoot-logo" xmlns="http://www.w3.org/2000/svg" width="64" height="56" viewBox="0 0 64 56">
-                        <path fill="#fff" d="M31.854 19.905L26.6 10.713h10.508zm-1.314.766H20.032l5.254-9.191zm2.628 0l5.254-9.191 5.254 9.191zm10.508 1.53l-5.254 9.189-5.254-9.188zm-13.136 0l-5.254 9.189-5.254-9.188zm-11.822.766l5.253 9.187H13.465zm21.02 9.187l5.252-9.187 5.253 9.187zm-2.63-22.97H26.6l5.254-9.19zm2.63 24.502h10.505l-5.253 9.188zm-26.273 0H23.97l-5.253 9.188zm-1.314.765l5.253 9.19H6.897zm34.152 9.19l5.254-9.19 5.254 9.19zm10.508 1.53l-5.254 9.188-5.254-9.187zm-13.135 0l-5.254 9.188-5.254-9.187zm-36.779 0h10.507L12.15 54.36zm-1.315.768l5.254 9.189H.33zm26.272 0l5.254 9.189H26.6zm13.136 0l5.253 9.189H39.738zm18.387 9.189H52.873l5.252-9.189z" />
+            <article class="prefoot-about">
+                <header class="prefoot-header">
+                    <svg class="prefoot-logo" xmlns="http://www.w3.org/2000/svg" width="64" height="56"
+                        viewBox="0 0 64 56">
+                        <path fill="#fff"
+                            d="M31.854 19.905L26.6 10.713h10.508zm-1.314.766H20.032l5.254-9.191zm2.628 0l5.254-9.191 5.254 9.191zm10.508 1.53l-5.254 9.189-5.254-9.188zm-13.136 0l-5.254 9.189-5.254-9.188zm-11.822.766l5.253 9.187H13.465zm21.02 9.187l5.252-9.187 5.253 9.187zm-2.63-22.97H26.6l5.254-9.19zm2.63 24.502h10.505l-5.253 9.188zm-26.273 0H23.97l-5.253 9.188zm-1.314.765l5.253 9.19H6.897zm34.152 9.19l5.254-9.19 5.254 9.19zm10.508 1.53l-5.254 9.188-5.254-9.187zm-13.135 0l-5.254 9.188-5.254-9.187zm-36.779 0h10.507L12.15 54.36zm-1.315.768l5.254 9.189H.33zm26.272 0l5.254 9.189H26.6zm13.136 0l5.253 9.189H39.738zm18.387 9.189H52.873l5.252-9.189z" />
                     </svg>
                     <p class='logo-name'>Waxom</p>
-            </header>
-            <p class='prefoot-txt'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, 
-                sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
-                Ut wisi enim ad minim veniam, quis nostrud exerci suscipit lobortis claritatem.</p>
-            <a class='prefoot-txt-link' href="#">Read more</a>
-        </article>
-        <article class="prefoot-recent">
-            <h2 class="prefoot-recent-header">Recent Posts</h2>
-            <div class='recent-wrapper'>
-            <div class="prefoot-recent-txt"> 
-                <header class="prefoot-txt-header">September 08, 2015</header>
-                <a href="#" class="prefoot-link">Lorem ipsum dolor sit amet, consec<wbr>tetuer adipiscing elit</a>
+                </header>
+                <p class='prefoot-txt'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                    Ut wisi enim ad minim veniam, quis nostrud exerci suscipit lobortis claritatem.</p>
+                <a class='prefoot-txt-link' href="#">Read more</a>
+            </article>
+            <article class="prefoot-recent">
+                <h2 class="prefoot-recent-header">Recent Posts</h2>
+                <div class='recent-wrapper'>
+                    <div class="prefoot-recent-txt">
+                        <header class="prefoot-txt-header">September 08, 2015</header>
+                        <a href="#" class="prefoot-link">Lorem ipsum dolor sit amet,
+                            consec<wbr>tetuer adipiscing elit</a>
+                    </div>
+                    <div class="prefoot-recent-txt">
+                        <header class="prefoot-txt-header">September 08, 2015</header>
+                        <a href="#" class="prefoot-link">Lorem ipsum dolor sit amet,
+                            consec<wbr>tetuer adipiscing elit</a>
+                    </div>
+                    <div class="prefoot-recent-txt">
+                        <header class="prefoot-txt-header">September 08, 2015</header>
+                        <a href="#" class="prefoot-link">Lorem ipsum dolor sit amet,
+                            consec<wbr>tetuer adipiscing elit</a>
+                    </div>
+                </div>
+            </article>
+            <article class="prefoot-recent">
+                <h2 class="prefoot-recent-header">Recent Posts</h2>
+                <div class='recent-wrapper'>
+                    <div class="prefoot-recent-txt">
+                        <header class="prefoot-txt-header">September 08, 2015</header>
+                        <a href="#" class="prefoot-link">Lorem ipsum dolor sit amet,
+                            consec<wbr>tetuer adipiscing elit</a>
+                    </div>
+                    <div class="prefoot-recent-txt">
+                        <header class="prefoot-txt-header">September 08, 2015</header>
+                        <a href="#" class="prefoot-link">Lorem ipsum dolor sit amet,
+                            consec<wbr>tetuer adipiscing elit</a>
+                    </div>
+                    <div class="prefoot-recent-txt">
+                        <header class="prefoot-txt-header">September 08, 2015</header>
+                        <a href="#" class="prefoot-link">Lorem ipsum dolor sit amet,
+                            consec<wbr>tetuer adipiscing elit</a>
+                    </div>
+                </div>
+            </article>
+            <div class="widget">
+                <h2 class='widget-header'>Dribbble Widget</h2>
+                <img src="img/photowid1.png" alt="widgetimg" class="widget-img" width="130" height="98">
+                <img src="img/photowid2.png" alt="widgetimg" class="widget-img" width="130" height="98">
+                <img src="img/photowid3.png" alt="widgetimg" class="widget-img" width="130" height="98">
+                <img src="img/photowid4.png" alt="widgetimg" class="widget-img" width="130" height="98">
             </div>
-            <div class="prefoot-recent-txt"> 
-                <header class="prefoot-txt-header">September 08, 2015</header>
-                <a href="#" class="prefoot-link">Lorem ipsum dolor sit amet, consec<wbr>tetuer adipiscing elit</a>
-            </div>
-            <div class="prefoot-recent-txt"> 
-                <header class="prefoot-txt-header">September 08, 2015</header>
-                <a href="#" class="prefoot-link">Lorem ipsum dolor sit amet, consec<wbr>tetuer adipiscing elit</a>
-            </div>
-            </div>
-        </article>
-        <article class="prefoot-recent">
-            <h2 class="prefoot-recent-header">Recent Posts</h2>
-            <div class='recent-wrapper'>
-            <div class="prefoot-recent-txt"> 
-                <header class="prefoot-txt-header">September 08, 2015</header>
-                <a href="#" class="prefoot-link">Lorem ipsum dolor sit amet, consec<wbr>tetuer adipiscing elit</a>
-            </div>
-            <div class="prefoot-recent-txt"> 
-                <header class="prefoot-txt-header">September 08, 2015</header>
-                <a href="#" class="prefoot-link">Lorem ipsum dolor sit amet, consec<wbr>tetuer adipiscing elit</a>
-            </div>
-            <div class="prefoot-recent-txt"> 
-                <header class="prefoot-txt-header">September 08, 2015</header>
-                <a href="#" class="prefoot-link">Lorem ipsum dolor sit amet, consec<wbr>tetuer adipiscing elit</a>
-            </div>
-            </div>
-        </article>
-        <div class="widget">
-            <h2 class='widget-header'>Dribbble Widget</h2>
-            <img src="img/photowid1.png" alt="widgetimg" class="widget-img" width="130" height="98">
-            <img src="img/photowid2.png" alt="widgetimg" class="widget-img" width="130" height="98">
-            <img src="img/photowid3.png" alt="widgetimg" class="widget-img" width="130" height="98">
-            <img src="img/photowid4.png" alt="widgetimg" class="widget-img" width="130" height="98">
-        </div>
         </div>
     </section>
     <footer class="footer">
@@ -383,18 +451,3 @@
 </body>
 
 </html>
-
-        <!-- <article class="prefoot-twitter">
-            <h2 class="prefoot-twitter-header"></h2>
-            <span class='twetter-wrapper'>
-            <p class="prefoot-twetter-txt"> 
-                <header class="prefoot-twe-header"></header>
-            </p>
-            <p class="prefoot-twetter-txt"> 
-                <header class="prefoot-twe-header"></header>
-            </p>
-            <p class="prefoot-twetter-txt"> 
-                <header class="prefoot-twe-header"></header>
-            </p>
-            </span>
-        </article> -->
