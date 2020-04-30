@@ -44,6 +44,7 @@ body {
     font-size: 34px;
     font-weight: 400;
     letter-spacing: -1.36px;
+    transition-duration: 0.3s;
 }
 
 .logo {
@@ -52,26 +53,27 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition-duration: 0.3s;
+}
+
+.logo-img {
+    transition-duration: 0.3s;
 }
 
 .logo:hover .logo-img {
     fill: #8c8c8c;
-    transition-duration: 0.3s;
 }
 
 .logo:hover .company-name {
     color: #8c8c8c;
-    transition-duration: 0.3s;
 }
 
 .logo:active .logo-img {
     fill: #c7b299;
-    transition-duration: 0.3s;
 }
 
 .logo:active .company-name {
     color: #c7b299;
-    transition-duration: 0.3s;
 }
 
 .menu-item {
@@ -89,11 +91,11 @@ body {
     font-size: 14px;
     font-weight: 300;
     margin: 0 30px 0 0;
+    transition-duration: 0.3s;
 }
 
 .item-link:hover {
     color: #c7b299;
-    transition-duration: 0.3s;
 }
 
 .header-slider {
@@ -159,11 +161,11 @@ body {
     background-color: #998675;
     border-radius: 3px;
     box-shadow: inset 0 -3px 0 #736357;
+    transition-duration: 0.3s;
 }
 
 .slider-text-btn:hover {
     background-color: #736357;
-    transition-duration: 0.3s;
     text-shadow: 0px 0px 2px;
 }
 
@@ -222,10 +224,12 @@ body {
     text-align: center;
     width: 260px;
     padding: 80px 15px 0 15px;
+    transition-duration: 0.3s;
 }
 
 .ability-item-img {
     fill: #555555;
+    transition-duration: 0.3s;
 }
 
 .ability-item-header {
@@ -235,6 +239,7 @@ body {
     font-weight: 400;
     margin-bottom: 20px;
     padding-top: 30px;
+    transition-duration: 0.3s;
 }
 
 .ability-text {
@@ -250,21 +255,19 @@ body {
     margin: 0 auto;
     width: 100px;
     border-bottom: 3px solid black;
+    transition-duration: 0.3s;
 }
 
 .ability-item:hover .ability-item-header {
     color: #c7b299;
-    transition-duration: 0.3s;
 }
 
 .ability-item:hover .line {
     border-bottom: 3px solid #c7b299;
-    transition-duration: 0.3s;
 }
 
 .ability-item:hover .ability-item-img {
     fill: #c7b299;
-    transition-duration: 0.3s;
 }
 
 .our-theme {
@@ -361,11 +364,11 @@ body {
     background-color: #998675;
     border-radius: 3px;
     box-shadow: inset 0 -3px 0 #736357;
+    transition-duration: 0.3s;
 }
 
 .our-footer-btn:hover {
     background-color: #736357;
-    transition-duration: 0.3s;
     text-shadow: 0px 0px 2px;
 }
 
@@ -399,6 +402,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    transition-duration: 0.3s;
 }
 
 .project-menu-btn {
@@ -411,6 +415,7 @@ body {
     width: 120px;
     font-size: 14px;
     font-weight: 300;
+    transition-duration: 0.3s;
 }
 
 .project-menu-btn:first-child {
@@ -420,7 +425,6 @@ body {
 .project-menu-btn:hover {
     background-color: #998675;
     color: #fff;
-    transition-duration: 0.3s;
 }
 
 .projects-gallery {
@@ -439,10 +443,12 @@ body {
     box-sizing: border-box;
     margin: 0 30px 30px 30px;
     position: relative;
+    transition-duration: 0.3s;
 }
 
 .item-img {
     position: relative;
+    transition-duration: 0.3s;
 }
 
 .item-header {
@@ -469,6 +475,7 @@ body {
     border-bottom: 10px solid #fbfaf8;
     top: 207px;
     left: 20px;
+    transition-duration: 0.3s;
 }
 
 .article-btn-link,
@@ -483,19 +490,22 @@ body {
     border: none;
     background-color: transparent;
     position: absolute;
-    top: 45%
+    top: 45%;
+    transition-duration: 0.3s;
 }
 
 .article-btn-link {
     fill: #fff;
     left: 37%;
     top: 29%;
+    transition-duration: 0.3s;
 }
 
 .article-btn-search {
     fill: #fff;
     right: 45%;
     top: 29%;
+    transition-duration: 0.3s;
 }
 
 .projects-gallery-item:hover .article-btn-link {
@@ -545,11 +555,11 @@ body {
     background-color: #998675;
     border-radius: 3px;
     box-shadow: inset 0 -3px 0 #736357;
+    transition-duration: 0.3s;
 }
 
 .projects-btn:hover {
     background-color: #736357;
-    transition-duration: 0.3s;
     text-shadow: 0px 0px 2px;
 }
 
@@ -969,6 +979,7 @@ video {
 .prefoot-recent-txt:not(:nth-child(3)) {
     border-bottom: 1px solid #252525;
     margin-top: 20px;
+    transition-duration: 0.3s;
 }
 
 .prefoot-txt-header {
@@ -977,6 +988,7 @@ video {
     font-size: 12px;
     font-weight: 300;
     line-height: 20px;
+    transition-duration: 0.3s;
 }
 
 .prefoot-link {
@@ -988,6 +1000,7 @@ video {
     font-weight: 300;
     line-height: 20px;
     margin: 10px 0 20px 0;
+    transition-duration: 0.3s;
 }
 
 .prefoot-recent-txt:hover .prefoot-link {
