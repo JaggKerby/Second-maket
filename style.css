@@ -48,6 +48,30 @@ body {
 
 .logo {
     margin: 0;
+    fill: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo:hover .logo-img {
+    fill: #8c8c8c;
+    transition-duration: 0.3s;
+}
+
+.logo:hover .company-name {
+    color: #8c8c8c;
+    transition-duration: 0.3s;
+}
+
+.logo:active .logo-img {
+    fill: #c7b299;
+    transition-duration: 0.3s;
+}
+
+.logo:active .company-name {
+    color: #c7b299;
+    transition-duration: 0.3s;
 }
 
 .menu-item {
@@ -497,15 +521,19 @@ body {
 .projects-gallery-item:hover {
     background-color: #362f2d;
 }
-.projects-gallery-item:hover .tri { 
+
+.projects-gallery-item:hover .tri {
     border-bottom: 10px solid #362f2d;
 }
+
 .projects-gallery-item:hover .item-header {
     color: #fff;
 }
+
 .projects-gallery-item:hover .item-txt {
     color: #c7b299;
 }
+
 .projects-btn {
     padding: 20px 45px;
     color: #ffffff;
