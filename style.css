@@ -769,8 +769,37 @@ video {
 }
 
 .post-date {
-    width: 30%;
+    width: 31%;
+    transition-duration: 0.3s;
+    position: relative;
 }
+.date {
+    position: absolute;
+    border-radius: 4px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 20px;
+    margin: 20px;
+}
+.post-day {
+    background-color: #363636;
+    padding: 10px;
+    border-radius: 4px 4px 0 0;
+    transition-duration: 0.3s;
+}
+.post-month {
+    background-color: #252525;
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    border-radius: 0 0 4px 4px;
+    transition-duration: 0.3s;
+}
+
 
 .post-date-head {
     color: #555555;
@@ -791,10 +820,30 @@ video {
     font-weight: 300;
     line-height: 22px;
     margin-bottom: 25px;
+    transition-duration: 0.3s;
 }
 
 .post-date-img {
     margin-bottom: 30px;
+    transition-duration: 0.3s;
+}
+.post-date:hover {
+    background-color: #362f2d;
+}
+.post-date:hover .post-date-img {
+    filter: brightness(40%);
+}
+.post-date:hover .post-date-head {
+    color: #c7b299; 
+}
+.post-date:hover .date-text {
+    color: #ffffff;
+}
+.post-date:hover .post-day {
+    background-color: #c7b299;
+}
+.post-date:hover .post-month {
+    background-color: #a48d72;
 }
 
 .post-link-txt {
@@ -828,7 +877,7 @@ video {
     padding: 0;
     display: flex;
     justify-content: center;
-    margin: 0;
+    margin: 30px 0 0 0;
 }
 
 .recent-right {
@@ -1040,13 +1089,51 @@ video {
 
 .footer {
     background-color: #111111;
+    display: flex;
+    font-family: 'Montserrat';
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 20px;
+    padding: 50px 0 50px 0;
 }
 
-.footer-menu,
-.footer-link,
-.footer-link-item>a {
+.footer-link {
     display: flex;
     flex-direction: row;
-    justify-content: start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
     color: #555555;
+}
+.footer-link-item {
+    text-decoration: none;
+    list-style: none;
+    color: #555555;
+}
+.authors {
+    color: #555555;
+    font-family: 'Montserrat';
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 20px;
+}
+.wax::after {
+    content: 'Waxom';   
+    color: #959595;
+    margin: 0 0 0 4px;
+}
+.slash::before {
+    content: '|';
+    color: #555555;
+    margin: 0 10px 0 10px;
+}
+.link-item {
+    color: #555555;
+    transition-duration: 0.3s;
+}
+.link-item-auth {
+    color: #959595;
+}
+.link-item:hover {
+    color: #c7b299;
 }
